@@ -11,9 +11,9 @@ export function renderBinarySearch() {
     <article>
       <p>Assignment: Create a program built on the concept of binary search</p>
       <hr>
-      <p>My project was super fun, I worked hard on it!</p>
+      <p>In this Project Me and Jayden worked together to creat a program that would guess your character out of a list of 49 characters </p>
       ${renderIframe(
-        "https://placehold.co/600x400?text=Your+Project+Here",
+        "https://iacs-cs.github.io/binary-search-jayden-and-mason/",
         "My Project Title"
       )}
     </article>

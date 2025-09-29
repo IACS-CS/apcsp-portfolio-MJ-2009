@@ -8,7 +8,7 @@ export function renderWelcome() {
     <h1>Student Portfolio</h1>
     ${renderMenu()}
     <h2>About Me</h2>
-    <p>All About me...</p>
+    <p>I am Mason a junior at Innovation Academy Charter School. </p>
     <!-- an example image: Notice that images live in public/ -->
     <img src="./example-circle.svg" alt="A blue circle" >
 
