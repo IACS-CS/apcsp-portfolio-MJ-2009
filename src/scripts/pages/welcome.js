@@ -15,10 +15,13 @@ export function renderWelcome() {
   </div>
 </div>
     <!--co polilot helped me with this img tag and text block--->
-    ${renderMenu()}
-    <!-- an example image: Notice that images live in public/ -->
-    
-
-    <!-- end code generated in welcome.js -->
+    <!-- an example image: Notice that images live in public/ --> 
+   
+    <div class="text-center">
+<h2>Welcome to my AP Computer Science Portfolio!</h2>
+</div>
+<div class="text-center">
+  ${renderMenu()}
+</div>
   `;
 }
