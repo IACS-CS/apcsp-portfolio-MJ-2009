@@ -3,13 +3,16 @@ export function renderMenu() {
   /* html */
   return `    
     <!-- code generated in renderMenu.js -->
-   <nav>
-      <ul>
-  <li><a href="#/" class="button">Home</a></li>
-  <li><a href="#/binary-search" class="button">Binary Search Project</a></li>
-  <li><a href="#/citations" class="button">Project citations</a></li>
-      </ul>
-    </nav>
+  <nav>
+    <ul>
+       <li><a href="#/" role="button">Home</a></li>
+  <li><a href="#/binary-search" role="button">Binary Search Project</a></li>
+  <li><a href="#/citations" role="button">Project citations</a></li>
+  <li><a href="#/portfolio" role="button">APCSP Portfolio</a></li>
+    </ul>
+  </nav>
+</div>
     <!-- end code generated in renderMenu.js -->
   `;
 }
+
