@@ -3,7 +3,7 @@ import { renderWelcome } from "./pages/welcome.js";
 import { renderBinarySearch } from "./pages/binarySearch.js";
 import { renderCitations } from "./pages/Citations.js";
 import { renderPortfolio } from "./pages/APCSP Portfolio.js";
-
+import { renderLicense } from "./pages/License.js";
 /* route takes a path and chooses which page to render.
 It is called each time the user clicks on a navigation link */
 export function route(path) {
@@ -15,6 +15,8 @@ export function route(path) {
     return renderCitations();
   } else if (path === "/portfolio") {
     return renderPortfolio();
+  } else if (path === "/license") {
+    return renderLicense();
   } else {
     return `<h1>404 Not Found</h1><a href="#/">Back Home</a>`;
   }
