@@ -5,6 +5,7 @@ export function renderWelcome() {
   /* html */
   return `
     <!-- code generated in welcome.js -->
+    <main class="container">
     <h1>Masons APCSP Portfolio</h1>
     <!-- make cicle where I put my picture and add about me --->
     <div class="profile-section">
@@ -21,8 +22,8 @@ export function renderWelcome() {
     <div class="text-center">
 <h2>Welcome to my AP Computer Science Portfolio!</h2>
 </div>
-<div class="text-center">
   ${renderMenu()}
 </div>
+</main>
   `;
 }

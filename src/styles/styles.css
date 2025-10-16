@@ -32,3 +32,10 @@ a.button {
   border-radius: 8px;
   transition: background-color 0.3s, color 0.3s;
 }
+.container {
+  border: 2px dashed #6d6d6d;
+  background: #6d6d6d;
+}
+nav {
+  justify-content: center;
+}
